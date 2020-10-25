@@ -64,8 +64,16 @@ Assumptions for multiple regressions checked
 
 2. Perform Suspension Coil T-Test
 
+Normality Check
+![](Challenge/pics/t_test_normality.png)
+
 Statistical summary of suspension coil's pounds-per-inch variable
 ![](Challenge/pics/summary_table.png)
 
 - The variance of the suspension coils do not exceed 100 punds per inch. Thus, the current manufacturing data meets this design specification.
 - Perform one-sample t-test to determine if the suspension coil's pound-per-inch results are statistically different from the mean population results of 1,500 pounds-per-inch.
+<Result>
+![](Challenge/pics/t_test%20result.png)
+- Based on the t-test result (p = 0.51 greater than the alpha-level of 0.05), we don't have enough evidence to reject the null hypothesis that there's no difference between the sample mean and the population mean. 
+
+3. Design Your Own Study
