@@ -1,3 +1,6 @@
+
+These are described in the READme.file as well. 
+
 ## Results
 1. Design a multiple linear regression to predict the mpg of MechaCar prototypes using a number of variables (predictor) within the MechaCar mpg dataset.
 - Both vehicle length and ground clearance provided a non-random amount of variance to the mpg values in the dataset. 
@@ -12,3 +15,10 @@
 
 <Result>
 - Based on the t-test result (p = 0.51 greater than the alpha-level of 0.05), we don't have enough evidence to reject the null hypothesis that there's no difference between the sample mean and the population mean. 
+
+<Study Design>
+- If I were to compare the performance of the MechaCar prototype vehicle to other comparable vehicles on the market, I would investigte city miles per gallon, fuel consumptions, or highway miles per gallon. 
+- The statistical analysis will be three different two-sample t-tests between the MechaCar prototype vehicle and another comparable vehicle on the market on their city miles per gallon (DV 1), fuel consumptions (DV 2), and highway miles per gllon (DV 3) to see if there's any statistical difference between these two types of vehicles. 
+- Particularly, if we hypothesize the the performance of the MechaCar prototype vehicle will outperform the other comparable vehicle, we can use one-tailed two-sample t-test. 
+- The null hypothesis: there will be no statistical difference between the two groups. 
+- Alternative hypotheses: the MechaCar prototype vehicle will perform greater than the other comparable vehicle on 1) city miles per gallon, 2) fuel consumptions, 3) highway miles per gallon. 
