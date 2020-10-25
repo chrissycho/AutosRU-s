@@ -39,6 +39,15 @@ suspCoil <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors =
 head(suspCoil)
 
 # 1. Print a summary statistics table for suspension coil's pounds-per-inc continuous variables
-summary(suspCoil$PSI)
+summary_table <-summary(suspCoil$PSI)
 plt <- ggplot(suspCoil, aes(x=PSI))
 plt+geom_density()
+sd(suspCoil$PSI)
+var(suspCoil$PSI)
+
+summary_table$var <- var(suspCoil$PSI)
+summary_table$sd <- sd(suspCoil$PSI)
+
+# One-sample t-test
+t.test(suspCoil$PSI, mu=1500)
+t.test()

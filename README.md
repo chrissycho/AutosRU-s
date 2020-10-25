@@ -62,5 +62,10 @@ Assumptions for multiple regressions checked
 - Homogeneity of Variance
 ![](Challenge/pics/ml_homogeneity.png)
 
-2.
+2. Perform Suspension Coil T-Test
 
+Statistical summary of suspension coil's pounds-per-inch variable
+![](Challenge/pics/summary_table.png)
+
+- The variance of the suspension coils do not exceed 100 punds per inch. Thus, the current manufacturing data meets this design specification.
+- Perform one-sample t-test to determine if the suspension coil's pound-per-inch results are statistically different from the mean population results of 1,500 pounds-per-inch.
