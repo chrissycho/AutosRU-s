@@ -75,8 +75,15 @@ Statistical summary of suspension coil's pounds-per-inch variable
 
 - The variance of the suspension coils do not exceed 100 punds per inch. Thus, the current manufacturing data meets this design specification.
 - Perform one-sample t-test to determine if the suspension coil's pound-per-inch results are statistically different from the mean population results of 1,500 pounds-per-inch.
-<Result>
+
+### t-test results
 ![](Challenge/pics/t_test%20result.png)
+
 - Based on the t-test result (p = 0.51 greater than the alpha-level of 0.05), we don't have enough evidence to reject the null hypothesis that there's no difference between the sample mean and the population mean. 
 
-3. Design Your Own Study
+## Design Your Own Study
+- If I were to compare the performance of the MechaCar prototype vehicle to other comparable vehicles on the market, I would investigte city miles per gallon, fuel consumptions, or highway miles per gallon. 
+- The statistical analysis will be three different two-sample t-tests between the MechaCar prototype vehicle and another comparable vehicle on the market on their city miles per gallon (DV 1), fuel consumptions (DV 2), and highway miles per gllon (DV 3) to see if there's any statistical difference between these two types of vehicles. 
+- Particularly, if we hypothesize the the performance of the MechaCar prototype vehicle will outperform the other comparable vehicle, we can use one-tailed two-sample t-test. 
+- The null hypothesis: there will be no statistical difference between the two groups. 
+- Alternative hypotheses: the MechaCar prototype vehicle will perform greater than the other comparable vehicle on 1) city miles per gallon, 2) fuel consumptions, 3) highway miles per gallon. 
