@@ -6,7 +6,7 @@
 [ 3. Objectives ](#obj)<br /> 
 [ 4. Challenge Overview ](#chal)<br /> 
 [ 5. Challenge Objective ](#chalsum)<br /> 
-[ 6. Final Thoughts ](#find)<br />
+[ 6. Results ](#find)<br />
 
 
 <a name="desc"></a>
@@ -43,4 +43,12 @@ In this challenge, we have to perform a series of statistical tests and create a
 - Design your own statistical study to compare vehicle performance of two vehicles.
 
 <a name="find"></a>
-## Final Thoughts
+## Results
+1. Design a multiple linear regression to predict the mpg of MechaCar prototypes using a number of variables (predictor) within the MechaCar mpg dataset.
+![](Challenge/pics/mechaTable_multiple_regression.png)
+- Both vehicle length and ground clearance provided a non-random amount of variance to the mpg values in the dataset. 
+- The slope of the linear model is not 0 because we have significant results for certain predictors that account for variability observed in the dependent variabe. 
+- This linear model predicts mpg of MechaCar prototypes effectively due to its p-value being less than 0.05 (p = 5.35e-11) and r^2 value is 0.68. 
+- About 68% of the variance found in the mpg (dependent variable) can be explained by the predictors. 
+
+2. 
