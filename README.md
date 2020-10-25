@@ -11,20 +11,25 @@
 
 <a name="desc"></a>
 ## Project Overview
-In this module, we've learned building a basic neural network and deep learning model. In the later module, we also learned the differences between supervised learning models and neural network models. 
+In this module, we've learned to supply statistics and hypothesis testing to analyze a series of datasets from the automotive industry. 
 
 <a name="resc"></a>
 ## Resources
-- Data Source: [AutosRU's MechaCars Prototypes](https://github.com/chrissycho/Deep_Learning/blob/main/challenge/charity_data.csv), [MechaCars suspension coil]
-- Software: Jupyter Notebook, Python3 
+- Data Source: [AutosRU's MechaCars Prototypes](https://github.com/chrissycho/AutosRU-s/blob/master/Challenge/MechaCar_mpg.csv), [MechaCars suspension coil](https://github.com/chrissycho/AutosRU-s/blob/master/Challenge/Suspension_Coil.csv)
+- Software: R studio 1.1.463
 
 <a name="obj"></a>
 ## Objectives
-- Describe the differences between supervised and unsupervised learning, including real-world examples of each.
-- Preprocess data for unsupervised learning.
-- Cluster data using the K-means algorithm.
-- Determine the best amount of centroids for K-means using the elbow curve.
-- Use PCA to limit features and speed up the model.
+- Load, clean up, and reshape datasets using tidyverse in R.
+- Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.
+- Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.
+- Plot and identify distribution characteristics of a given dataset.
+- Formulate null and alternative hypothesis tests for a given data problem.
+- Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.
+- Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.
+- Implement and evaluate a chi-squared test for a given dataset.
+- Identify key characteristics of A/B and A/A testing.
+- Determine the most appropriate statistical test for a given hypothesis and dataset.
 
 <a name="chal"></a>
 ## Challenge Overview
@@ -39,12 +44,3 @@ In this challenge, we have to perform a series of statistical tests and create a
 
 <a name="find"></a>
 ## Final Thoughts
-1. How many neurons and layers did you select for your neural network model? Why?
-In this model, we've created two hidden layers with 8 neurons and 5 neurons, respectively. This is done by trial and error since adding more neurons do not increase accuracy, the optimal result was shown with 8 and 5 neurons. 
-
-2. Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
-At first, we didn't achive the target model performance, which should be higher than 75% accuracy. To increase the accuracy, we've added more neurons and tested the model out. We also added more epochs in the model. The disadvantage with many neurons and more epochs is a risk of overfitting. The disadvantage with more neurons and epochs is a risk of overfitting.  Lastly, we've also tried changing the activation function in the output to tanh but it actually decreased the model so we kept relu in the input and sigmoid in the output. 
-
-3. If you were to implement a different model to solve this classification problem, which would you choose? Why?
-If I were to implement a different model to solve the classification problem, I'd compare with other machine learning models such as logistic regression, support vector machine and random forest. Sometimes, logistic regression models can return the output quickly than deep learning models with the same accuracy level.
-
