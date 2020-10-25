@@ -45,10 +45,22 @@ In this challenge, we have to perform a series of statistical tests and create a
 <a name="find"></a>
 ## Results
 1. Design a multiple linear regression to predict the mpg of MechaCar prototypes using a number of variables (predictor) within the MechaCar mpg dataset.
+
 ![](Challenge/pics/mechaTable_multiple_regression.png)
+![](Challenge/pics/mechaTable_coefficients.png)
 - Both vehicle length and ground clearance provided a non-random amount of variance to the mpg values in the dataset. 
 - The slope of the linear model is not 0 because we have significant results for certain predictors that account for variability observed in the dependent variabe. 
 - This linear model predicts mpg of MechaCar prototypes effectively due to its p-value being less than 0.05 (p = 5.35e-11) and r^2 value is 0.68. 
 - About 68% of the variance found in the mpg (dependent variable) can be explained by the predictors. 
 
-2. 
+Assumptions for multiple regressions checked
+- Normality
+![](Challenge/pics/ml_assumption_normality.png)
+- Linearity
+![](Challenge/pics/ml_linearity.png)
+![](Challenge/pics/ml_residuals.png)
+- Homogeneity of Variance
+![](Challenge/pics/ml_homogeneity.png)
+
+2.
+

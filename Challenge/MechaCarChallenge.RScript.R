@@ -31,3 +31,14 @@ residualPlot(lm) # residuals must be close to 0
 plot(lm)
 # 4. Homoskedasticity (constant conditional variance).  
 plot(lm, 3)
+lm
+
+
+# Susension Coil test 
+suspCoil <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
+head(suspCoil)
+
+# 1. Print a summary statistics table for suspension coil's pounds-per-inc continuous variables
+summary(suspCoil$PSI)
+plt <- ggplot(suspCoil, aes(x=PSI))
+plt+geom_density()
